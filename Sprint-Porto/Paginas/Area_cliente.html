@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style_formulario.css">
+    <title>Area do Cliente</title>
+</head>
+<body>
+    <h1>Cadastro de Veículo</h1>
+    <form action="cadastro.php" method="POST">
+        <label for="marca">Marca:</label>
+        <input type="text" id="marca" name="marca" required>
+
+        <label for="modelo">Modelo:</label>
+        <input type="text" id="modelo" name="modelo" required>
+
+        <label for="ano">Ano:</label>
+        <input type="number" id="ano" name="ano" min="1900" max="2099" required>
+
+        <label for="Chassi">Chassi:</label>
+        <input type="number" id="chassi" name="chassi" required>
+
+        <label for="placa">Placa:</label>
+        <input type="text" id="placa" name="placa" pattern="[A-Za-z]{3}-[0-9]{4}" required>
+
+        <label for="descrição">Descrição:</label>
+        <input type="text" id="descrição" name="descrição" required>
+
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>
