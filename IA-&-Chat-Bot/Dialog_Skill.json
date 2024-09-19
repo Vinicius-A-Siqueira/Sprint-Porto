@@ -1,0 +1,405 @@
+{
+  "intents": [
+    {
+      "intent": "cadastrais",
+      "examples": [
+        {
+          "text": "As informação cadastrais estão erradas."
+        },
+        {
+          "text": "Esqueci meu usuario."
+        },
+        {
+          "text": "esqueci minha senha"
+        },
+        {
+          "text": "estou com problema para alterar a placa"
+        },
+        {
+          "text": "estou com problemas no cadastro do meu carro."
+        },
+        {
+          "text": "estou com problemas no cadastro do perfil"
+        },
+        {
+          "text": "Meu login não entrar."
+        },
+        {
+          "text": "Minha senha não está entrando."
+        },
+        {
+          "text": "Quero atualizar meus dados."
+        },
+        {
+          "text": "Quero atualizar o meu numero de telefone"
+        },
+        {
+          "text": "Quero cadastrar um novo veiculo."
+        },
+        {
+          "text": "Quero mudar a cor do meu carro no cadastro."
+        }
+      ],
+      "description": "Referente a problemas cadastrais dos veículos e dos clientes"
+    },
+    {
+      "intent": "guincho",
+      "examples": [
+        {
+          "text": "Meu carro caiu no rio preciso de guincho."
+        },
+        {
+          "text": "Meu carro de problema no meio da estrada por isso de um guincho."
+        },
+        {
+          "text": "Meu carro deu perda total é preciso de um guincho."
+        },
+        {
+          "text": "Meu carro ficou sem gasolina e preciso de um guincho"
+        },
+        {
+          "text": "Meu carro parou de funcionar e preciso de guincho."
+        },
+        {
+          "text": "Meu carro parou no meio da estrada e estou precisando de um guincho"
+        },
+        {
+          "text": "Minha moto de perda total e preciso de um guincho."
+        },
+        {
+          "text": "Minha moto quebrou a direção e preciso de um guincho."
+        },
+        {
+          "text": "Necessito de um guincho para levar minha moto para a mecanica."
+        },
+        {
+          "text": "O motor do meu carro afogou preciso de um guincho."
+        },
+        {
+          "text": "Preciso de guincho para levar meu carro para a mecanica."
+        },
+        {
+          "text": "Preciso transportar meu carro para a mecânica"
+        }
+      ],
+      "description": "Referente a pedidos de guincho."
+    },
+    {
+      "intent": "mecânicos-carro",
+      "examples": [
+        {
+          "text": "bati o carro"
+        },
+        {
+          "text": "Meu carro caiu no rio."
+        },
+        {
+          "text": "Meu carro está com problemas."
+        },
+        {
+          "text": "Meu carro foi furtado"
+        },
+        {
+          "text": "Meu carro foi roubado."
+        },
+        {
+          "text": "meu carro não está andando."
+        },
+        {
+          "text": "meu carro não está ligando"
+        },
+        {
+          "text": "Meu carro pegou fogo."
+        },
+        {
+          "text": "motor do meu carro fundiu"
+        },
+        {
+          "text": "O vidro do meu carro quebrou."
+        },
+        {
+          "text": "Pneu do meu carro furou"
+        },
+        {
+          "text": "Preciso de ajuda com o meu carro."
+        }
+      ],
+      "description": "Referente a problemas mecânicos."
+    },
+    {
+      "intent": "mecânicos-moto",
+      "examples": [
+        {
+          "text": "A corrente da minha moto estouro."
+        },
+        {
+          "text": "bati a moto."
+        },
+        {
+          "text": "cai da moto"
+        },
+        {
+          "text": "Minha mota pegou fogo."
+        },
+        {
+          "text": "Minha moto está sem caximbo."
+        },
+        {
+          "text": "Minha moto foi furtada."
+        },
+        {
+          "text": "Minha moto foi roubada."
+        },
+        {
+          "text": "Minha moto não liga."
+        },
+        {
+          "text": "O guidão da minha moto entortou com a queda"
+        },
+        {
+          "text": "O motor da minha moto fundiu."
+        },
+        {
+          "text": "O painel da minha moto queimou."
+        },
+        {
+          "text": "Pneu da minha moto furou"
+        }
+      ],
+      "description": "Referente a problemas com motos."
+    },
+    {
+      "intent": "serviços",
+      "examples": [
+        {
+          "text": "Quero adicionar um portefólio no meu carro."
+        },
+        {
+          "text": "Quero alterar a cor do veículo"
+        },
+        {
+          "text": "Quero colocar adesivos no veículo"
+        },
+        {
+          "text": "Quero colocar o farou de LED no meu carro."
+        },
+        {
+          "text": "Quero colocar rodas esportivas no meu carro."
+        },
+        {
+          "text": "Quero colocar saia no meu carro."
+        },
+        {
+          "text": "Quero colocar um escapamento esportivo na minha moto."
+        },
+        {
+          "text": "Quero colocar vidro fumê."
+        },
+        {
+          "text": "Quero customizar meu veículo"
+        },
+        {
+          "text": "Quero customizar minha moto."
+        },
+        {
+          "text": "Quero customizar os bancos do carro"
+        },
+        {
+          "text": "Quero fazer uma limpeza externa no carro."
+        }
+      ],
+      "description": "Referente a serviços complementares. "
+    },
+    {
+      "intent": "suporte",
+      "examples": [
+        {
+          "text": "Estou com problemas para acessar os serviços do seguro"
+        },
+        {
+          "text": "Não consigo acessar o menu de ajuda."
+        },
+        {
+          "text": "Não estou conseguindo acessar o histórico do meu veiculo."
+        },
+        {
+          "text": "não estou conseguindo acessar os dados do meu carro"
+        },
+        {
+          "text": "Não estou conseguindo acionar o seguro"
+        },
+        {
+          "text": "Não estou conseguindo cadastrar um novo veiculo."
+        },
+        {
+          "text": "Não estou conseguindo enviar o formulário de ajuda."
+        },
+        {
+          "text": "O painel dos serviços está com problemas."
+        },
+        {
+          "text": "O que meu seguro cobre?"
+        },
+        {
+          "text": "Quero a descrição do meu contrato de seguro."
+        },
+        {
+          "text": "Quero contratar outro serviço"
+        },
+        {
+          "text": "Quero mudar meu plano de seguro."
+        }
+      ],
+      "description": "Referente ao suporte para o cliente."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "código_usuário",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "Codigo",
+          "patterns": [
+            "(0-9)"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "codigo_veiculo",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "Placa do veículo",
+          "patterns": [
+            "([A-Za-z])-([0-9])"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "data",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "Data",
+          "patterns": [
+            "dd/mm/yyyy"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "local",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Local",
+          "synonyms": [
+            "Avenida",
+            "Casa",
+            "Endereço",
+            "Estrada",
+            "Marginal",
+            "Rua"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "valor",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Valor",
+          "synonyms": [
+            "custo",
+            "Orçamento",
+            "pagamento",
+            "preço"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá. Como posso te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "Bem-vindo",
+      "disambiguation_opt_out": true
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "",
+  "name": "BOT-Bombeiro-dialog"
+}
